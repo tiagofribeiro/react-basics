@@ -1,3 +1,5 @@
+// import React from "react";
+import Card from "./components/Card";
 import ExpenseItem from "./components/ExpenseItem";
 
 export default function App() {
@@ -11,12 +13,21 @@ export default function App() {
     <div>
       <h2>Vamos começar!</h2>
       <p>Só testando um JSX</p>
-      {expenses.map((expense) => {
-        return <ExpenseItem
-          date={expense.date}
-          title={expense.title}
-          amount={expense.amount} />
-      })};
+      <Card className='content'>
+        {expenses.map((expense) => {
+          return <ExpenseItem
+            key={expense.id}
+            date={expense.date}
+            title={expense.title}
+            amount={expense.amount} />
+        })}
+      </Card>
     </div>
   );
+
+  // return React.createElement(
+  //   'div', {},
+  //   React.createElement('h2', {}, "Vamos começar!"),
+  //   React.createElement(ExpenseItem, { items: expenses })
+  // );
 }

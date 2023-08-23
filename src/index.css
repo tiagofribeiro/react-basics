@@ -9,7 +9,17 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 12px;
   background-color: #3f3f3f;
 }
 
+/* some dynamic measurements */
+.content {
+  width: 50rem;
+  max-width: 95%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #313131;
+  box-shadow: 0 2px 12px #313131;
+}
