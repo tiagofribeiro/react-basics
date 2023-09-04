@@ -9,7 +9,7 @@ export default function Expenses() {
         { id: 2, date: new Date(2023, 7, 30), title: 'Carro', amount: 800 },
     ];
     return (
-        <Card className='content'>
+        <Card class='content'>
             {expenses.map((expense) => {
                 return <ExpenseItem
                     key={expense.id}

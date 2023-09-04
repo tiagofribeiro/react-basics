@@ -1,6 +1,6 @@
 # Início
 
-### Básico sobre composição, props e funcionamento base do React
+### Básico sobre composição, props, states e funcionamento base do React
 
 Padrão ATOMIC  
 

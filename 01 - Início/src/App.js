@@ -1,4 +1,5 @@
 import Expenses from "./components/templates/Expenses";
+import NewExpense from "./components/templates/NewExpense";
 
 // import React from "react";
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
     <div>
       <h2>Vamos começar!</h2>
       <p>Só testando um JSX</p>
+      <NewExpense />
       <Expenses />
     </div>
   );
