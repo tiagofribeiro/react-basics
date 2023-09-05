@@ -14,11 +14,12 @@ align-items: center;
 justify-content: space-between;
 
 & label {
-    color: #ffffff;
+  color: #ffffff;
   }
 
 & input {
-    width: 240px;
-    height: 100%;
-    }
+  width: 240px;
+  height: 100%;
+  border-radius: 8px;
+  }
 `;
